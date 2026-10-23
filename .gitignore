@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+.DS_Store
+*.log
+.pytest_cache/
+
+# Do not publish the raw CSV by default
+data/*.csv
+
+# Trained model files can be large or environment-specific; review before committing
+# models/*.joblib
